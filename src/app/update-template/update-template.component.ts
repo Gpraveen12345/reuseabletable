@@ -25,6 +25,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
   styleUrls: ['./update-template.component.scss']
 })
 export class UpdateTemplateComponent {
+  
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   dataSource = ELEMENT_DATA;
 }
